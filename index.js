@@ -3,7 +3,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
 
-const nggUrl = 'https://discord.com/app';
+const nggUrl = 'https://web.archive.org';
 
 const proxy = createProxyMiddleware({
   target: nggUrl,
