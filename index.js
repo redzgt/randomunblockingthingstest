@@ -3,7 +3,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
 
-const nggUrl = 'https://web.archive.org';
+const nggUrl = 'https://play.geforcenow.com';
 
 const proxy = createProxyMiddleware({
   target: nggUrl,
